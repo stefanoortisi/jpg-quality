@@ -59,7 +59,6 @@ function on_images_converted() {
 
 
 function convert( image, callback ) {
-	// var cmd = "convert -strip -interlace Plane -gaussian-blur 0.05 -quality 50% " + input_folder + "/" + image + " " + output_folder + "/" + image
 	var cmd = "convert"
 	var params = "-strip -interlace Plane -gaussian-blur 0.05 -quality " + quality + " % " + input_folder + "/" + image + " " + output_folder + "/" + image
 	var params = params.split( " " );
