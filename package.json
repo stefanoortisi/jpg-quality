@@ -10,7 +10,7 @@
   "bin": {
     "jpg-quality": "jpg-quality.js"
   },
-  "author": "Stefano Ortisi <sortisi@hi-res.net>",
+  "author": "Stefano Ortisi <stefanoortisi@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "async": "^0.9.0",
