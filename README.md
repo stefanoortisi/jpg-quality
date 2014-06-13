@@ -17,6 +17,6 @@ Requires [ImageMagick](http://www.imagemagick.org), available via HomeBrew (`$ s
 
 ## Paramaters
 
-	- -i <input_directory> : Required
-	- -o <output_directory> : Required
-	- -q <quality> : Optional (default value: 85)
+	-i <input_directory> : Required
+	-o <output_directory> : Required
+	-q <quality> : Optional (default value: 85)
