@@ -2,9 +2,13 @@
   "name": "jpg_quality",
   "version": "0.0.0",
   "description": "An Imagemagick wrapper which convert all the jpg of a directory with a certain quality.",
-  "main": "hires-convert",
+  "main": "jpg-quality.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "jpg-quality": "jpg-quality.js"
   },
   "author": "Stefano Ortisi <sortisi@hi-res.net>",
   "license": "ISC",
