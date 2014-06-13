@@ -1,0 +1,15 @@
+{
+  "name": "jpg_quality",
+  "version": "0.0.0",
+  "description": "An Imagemagick wrapper which convert all the jpg of a directory with a certain quality.",
+  "main": "hires-convert",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefano Ortisi <sortisi@hi-res.net>",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^0.9.0",
+    "minimist": "^0.1.0"
+  }
+}
